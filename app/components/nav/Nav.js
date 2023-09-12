@@ -1,4 +1,5 @@
 import React from "react";
+import { AiFillFolderOpen, AiFillHome, AiFillPhone } from "react-icons/ai";
 
 export const Nav = () => {
   return (
@@ -11,13 +12,22 @@ export const Nav = () => {
       </a>
       <ul className="flex gap-5">
         <li>
-          <a href="#home">Home</a>
+          <a href="#home" className="flex items-center justify-between">
+            Home
+            <AiFillHome />
+          </a>
         </li>
         <li>
-          <a href="#portfolio">Portfolio</a>
+          <a href="#portfolio" className="flex items-center justify-between">
+            Portfolio
+            <AiFillFolderOpen />
+          </a>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <a href="#contact" className="flex items-center justify-between">
+            Contact
+            <AiFillPhone />
+          </a>
         </li>
       </ul>
     </nav>
