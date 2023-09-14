@@ -5,29 +5,20 @@ export const Nav = () => {
   return (
     <nav
       id="nav"
-      className="w-100 bg-slate-400 dark:bg-slate-900 p-3 flex justify-between sticky top-0"
+      className="w-100 bg-slate-400 dark:bg-slate-900 p-3 flex justify-center md:justify-between sticky top-0"
     >
-      <a href="#home">
+      <a href="#home" className="hidden md:block">
         <strong>Adam Kwiasowski</strong>
       </a>
-      <ul className="flex gap-5">
+      <ul className="flex gap-8 md:gap-5">
         <li>
-          <a href="#home" className="flex items-center justify-between">
-            Home
-            <AiFillHome />
-          </a>
+          <a href="#home">Home</a>
         </li>
         <li>
-          <a href="#portfolio" className="flex items-center justify-between">
-            Portfolio
-            <AiFillFolderOpen />
-          </a>
+          <a href="#portfolio">Portfolio</a>
         </li>
         <li>
-          <a href="#contact" className="flex items-center justify-between">
-            Contact
-            <AiFillPhone />
-          </a>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
     </nav>
