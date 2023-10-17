@@ -1,6 +1,7 @@
 import React from "react";
 import { Project } from "../project/Project";
 import cvBuilder from "../../../public/CVBuilder.png";
+import rickandmorty from "../../../public/rickandmorty.png";
 
 export const Main = () => {
   return (
@@ -13,6 +14,13 @@ export const Main = () => {
           image={cvBuilder}
           gitLink="https://github.com/Kwiasek/cv-builder"
           liveLink="https://cv-builder-coral.vercel.app/"
+        />
+        <Project
+          name="Rick and Morty Memory"
+          description="Simple memory game, characters are fetched from https://rickandmortyapi.com/."
+          image={rickandmorty}
+          gitLink="https://github.com/Kwiasek/rickandmorty-memory"
+          liveLink="https://rickandmorty-memory.vercel.app/"
         />
       </div>
     </main>
