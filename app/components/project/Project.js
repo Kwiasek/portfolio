@@ -4,10 +4,10 @@ import { GoArrowUpRight } from "react-icons/go";
 
 export const Project = ({ name, image, description, gitLink, liveLink }) => {
   return (
-    <div className="flex flex-col gap-2 sm:max-w-xl sm:justify-center">
+    <div className="flex flex-col gap-3 sm:max-w-xl sm:justify-center">
       <Image src={image} alt="" className="rounded-xl" />
-      <strong>{name}</strong>
-      <p className="text-slate-500">{description}</p>
+      <strong className="text-xl">{name}</strong>
+      <p className="text-slate-500 md:min-h-[25%]">{description}</p>
       <div className="flex justify-between">
         <a
           className="px-3 py-2 bg-white text-black rounded cursor-pointer focus:bg-slate-650 active:bg-slate-650 flex"
