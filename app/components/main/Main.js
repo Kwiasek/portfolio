@@ -2,6 +2,7 @@ import React from "react";
 import { Project } from "../project/Project";
 import cvBuilder from "../../../public/CVBuilder.png";
 import rickandmorty from "../../../public/rickandmorty.png";
+import blogdotmd from "../../../public/blogdotmd.png";
 
 export const Main = () => {
   return (
@@ -21,6 +22,13 @@ export const Main = () => {
           image={rickandmorty}
           gitLink="https://github.com/Kwiasek/rickandmorty-memory"
           liveLink="https://rickandmorty-memory.vercel.app/"
+        />
+        <Project
+          name="blog.md"
+          description="Blog site with little CMS where you write your posts in markdown language."
+          image={blogdotmd}
+          gitLink="https://github.com/Kwiasek/blogdotmd"
+          liveLink="https://blogdotmd.vercel.app/"
         />
       </div>
     </main>
