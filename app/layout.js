@@ -1,8 +1,8 @@
 import "./globals.css";
-import { Roboto_Flex } from "next/font/google";
+import { Victor_Mono, Roboto_Flex } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
 
-const roboto = Roboto_Flex({ subsets: ["latin"] });
+const victor_mono = Victor_Mono({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Adam Kwiasowski Portfolio",
@@ -12,7 +12,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={roboto.className}>
+      <body className={victor_mono.className}>
         {children}
         <Analytics />
       </body>

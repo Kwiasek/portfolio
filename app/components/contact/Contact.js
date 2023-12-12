@@ -33,7 +33,9 @@ export const Contact = () => {
       id="contact"
       className="w-full flex flex-col gap-6 p-12 justify-center sm:gap-12"
     >
-      <h2 className="text-3xl font-bold">Contact</h2>
+      <h2 className="text-3xl font-bold text-secondary dark:text-primary">
+        Contact
+      </h2>
       <form
         className="flex flex-col sm:w-4/5 md:w-3/5 gap-4"
         autoComplete="on"
@@ -42,21 +44,21 @@ export const Contact = () => {
       >
         <input
           type="text"
-          className="px-3 py-2 rounded-md dark:bg-slate-950 focus:outline-slate-600"
+          className="px-3 py-2 rounded-md dark:bg-secondary focus:outline-slate-600"
           placeholder="Name"
           name="user_name"
           required
         ></input>
         <input
           type="email"
-          className="px-3 py-2 rounded-md dark:bg-slate-950 focus:outline-slate-600"
+          className="px-3 py-2 rounded-md dark:bg-secondary focus:outline-slate-600"
           placeholder="E-mail"
           name="user_email"
           required
         ></input>
         <textarea
           rows="10"
-          className="px-3 py-2 rounded-md dark:bg-slate-950 focus:outline-slate-600 resize-none"
+          className="px-3 py-2 rounded-md dark:bg-secondary focus:outline-slate-600 resize-none"
           placeholder="Message"
           name="message"
           required
@@ -65,7 +67,7 @@ export const Contact = () => {
         <p>*All fields are required in order to submit form.</p>
         <input
           type="submit"
-          className="bg-white px-3 py-2 rounded-md dark:bg-slate-950 cursor-pointer"
+          className="bg-white px-3 py-2 rounded-md bg-accent cursor-pointer"
           value="Send"
         ></input>
       </form>

@@ -5,20 +5,26 @@ export const Nav = () => {
   return (
     <nav
       id="nav"
-      className="w-100 bg-slate-400 dark:bg-slate-900 p-3 flex justify-center md:justify-between sticky top-0"
+      className="w-100 text-text bg-secondary dark:bg-secondary p-3 flex justify-center md:justify-between sticky top-0"
     >
-      <a href="#home" className="hidden md:block">
+      <a href="#home" className="hidden md:block hover:text-primary">
         <strong>Adam Kwiasowski</strong>
       </a>
       <ul className="flex gap-8 md:gap-5">
         <li>
-          <a href="#home">Home</a>
+          <a href="#home" className="hover:text-primary">
+            Home
+          </a>
         </li>
         <li>
-          <a href="#portfolio">Portfolio</a>
+          <a href="#portfolio" className="hover:text-primary">
+            Portfolio
+          </a>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <a href="#contact" className="hover:text-primary">
+            Contact
+          </a>
         </li>
       </ul>
     </nav>
