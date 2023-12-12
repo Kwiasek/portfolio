@@ -7,12 +7,16 @@ const roboto_flex = Roboto_Flex({ subsets: ["latin"] });
 
 export const Project = ({ name, image, description, gitLink, liveLink }) => {
   return (
-    <div className="flex flex-col gap-3 sm:max-w-xl sm:justify-center bg-primary dark:bg-secondary px-5 py-10 rounded-xl">
-      <Image src={image} alt="" className="rounded-xl" />
+    <div className="flex flex-col gap-3 sm:max-w-xl justify-center bg-primary dark:bg-secondary px-5 py-6 rounded-xl h-max min-h-full">
+      <Image
+        src={image}
+        alt="Picture representing project"
+        className="rounded-xl"
+      />
       <strong className="text-xl text-secondary dark:text-primary">
         {name}
       </strong>
-      <p className={`text-slate-500 md:min-h-[25%] ${roboto_flex.className}`}>
+      <p className={`text-slate-500 flex-auto ${roboto_flex.className}`}>
         {description}
       </p>
       <div className="flex justify-between">
