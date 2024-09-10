@@ -4,4 +4,4 @@ Application done using [Next.js](https://nextjs.org/) and [tailwindcss](https://
 
 Contact form uses [EmailJS](https://www.emailjs.com/).
 
-[Live Site](https://www.adamkwiasowski.pl/) deployed on [Vercel](https://vercel.com/).
+[Live Site](https://www.kwiasek.site/) deployed on [Vercel](https://vercel.com/).
