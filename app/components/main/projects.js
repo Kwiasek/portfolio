@@ -1,0 +1,53 @@
+const projectsFile = [
+  {
+    _id: "66dee4c7bc990f1f67a8e6f2",
+    name: "CV Builder App",
+    desc: "Introducing a user-friendly CV creation application designed to streamline the process of crafting professional resumes effortlessly. Developed with a tech stack comprising Vite for efficient bundling, React for dynamic and responsive UI, tailwindcss for a sleek design, and papercss for print-ready styles, this application ensures that users can easily generate simple yet impactful CVs. Seamlessly deployed on Vercel, the platform provides a quick and accessible solution for anyone looking to create polished resumes ready for print. With its intuitive interface and powerful technologies, this CV creation app stands out as a valuable tool for those seeking a hassle-free and effective way to showcase their professional achievements.",
+    liveUrl: "https://cv-builder-coral.vercel.app/",
+    repoUrl: "https://github.com/Kwiasek/cv-builder",
+    date: "2024-09-09T12:47:19.073Z",
+    img: "https://i.imgur.com/fiEasli.png",
+  },
+  {
+    _id: "66def0125c66d61bb99f108d",
+    name: "Rick and Morty Memory",
+    desc: "Embark on a memory-challenging adventure with my innovative application – a Rick and Morty-themed memory game. Developed using cutting-edge technologies such as Vite, React, and Tailwind CSS, this engaging game not only provides entertainment but also showcases the beloved characters from the popular TV series. Leveraging the dynamic capabilities of the Rick and Morty API (https://rickandmortyapi.com/), my app fetches character data to create a visually appealing and immersive gaming experience. Dive into the world of interdimensional fun as you match characters and test your memory skills, all within a seamlessly designed interface. Get ready for a gaming journey that combines technology, creativity, and the quirky charm of Rick and Morty!",
+    liveUrl: "https://rickandmorty-memory.vercel.app/",
+    repoUrl: "https://github.com/Kwiasek/rickandmorty-memory",
+    date: "2024-09-09T12:47:19.073Z",
+    img: "https://i.imgur.com/wct3ZOv.png",
+    __v: 0,
+  },
+  {
+    _id: "66def0485c66d61bb99f1097",
+    name: "blog.md",
+    desc: "Welcome to Blog.md, a unique blogging application that puts the power of content creation in your hands! With this platform, anyone can contribute by writing posts, but there's a twist – posts are crafted in Markdown, the versatile markup language. Upon submission, your Markdown content is dynamically transformed into HTML and displayed on the website. The beauty lies in its simplicity, as posts are securely stored in the browser's memory, ensuring a hassle-free and quick writing experience. Dive into the world of expressive and user-friendly blogging with Blog.md, where your thoughts come to life effortlessly through the magic of Markdown!",
+    liveUrl: "https://blogdotmd.vercel.app/",
+    repoUrl: "https://github.com/Kwiasek/blogdotmd",
+    date: "2024-09-09T12:47:19.073Z",
+    img: "https://i.imgur.com/OXYfnCb.png",
+    __v: 0,
+  },
+  {
+    _id: "66def07a5c66d61bb99f10a1",
+    name: "RESTful Projects",
+    desc: "RESTful Projects is a dynamic web application crafted using Express.js, seamlessly integrating with a MongoDB database. This innovative project empowers me to effortlessly edit and manage my portfolio projects. Leveraging the power of RESTful principles, the application efficiently fetches and displays curated projects on the portfolio webpage. With a sleek and intuitive interface, RESTful Projects adds a layer of simplicity to the project management process, making it an excellent addition to any portfolio.",
+    liveUrl: "https://restfulprojects.adaptable.app/",
+    repoUrl: "https://github.com/Kwiasek/RESTfulProjects",
+    date: "2024-09-09T12:47:19.073Z",
+    img: "https://i.imgur.com/Uvqmk4f.png",
+    __v: 0,
+  },
+  {
+    _id: "66def0ae5c66d61bb99f10ab",
+    name: "Where's Wally?",
+    desc: "\"Where's Wally?\" is an engaging React-based application designed to test the user's observation skills. The game features three levels, each presenting a unique challenge where the player must locate three hidden characters within an image. Upon successfully identifying all characters in a level, the app displays the time taken to complete the task, adding a competitive edge to the experience. The application is a fun and interactive way to enhance visual attention and reaction time.",
+    liveUrl: "https://where-s-wally.vercel.app/",
+    repoUrl: "https://github.com/Kwiasek/where-s-wally",
+    date: "2024-09-09T12:47:19.073Z",
+    img: "https://i.imgur.com/ugI0AqZ.png",
+    __v: 0,
+  },
+];
+
+export default projectsFile;

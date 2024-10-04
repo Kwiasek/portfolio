@@ -3,27 +3,27 @@
 import React, { useEffect, useState } from "react";
 import { Project } from "../project/Project";
 import { ThreeDots } from "react-loader-spinner";
+import projectsFile from "./projects";
 
 export const Main = () => {
-  const [projects, setProjects] = useState(null);
+  const [projects, setProjects] = useState(projectsFile);
   const [error, setError] = useState(null);
-
-  useEffect(() => {
-    fetch("https://restfulprojects.adaptable.app/projects", {
-      method: "GET",
-      mode: "cors",
-    })
-      .then((res) => {
-        if (res.status >= 400) {
-          throw new Error("Server error");
-        }
-        return res.json();
-      })
-      .then((data) => setProjects(data))
-      .catch((error) => {
-        setError(error);
-      });
-  }, []);
+  // useEffect(() => {
+  //   fetch("https://restfulprojects.adaptable.app/projects", {
+  //     method: "GET",
+  //     mode: "cors",
+  //   })
+  //     .then((res) => {
+  //       if (res.status >= 400) {
+  //         throw new Error("Server error");
+  //       }
+  //       return res.json();
+  //     })
+  //     .then((data) => setProjects(data))
+  //     .catch((error) => {
+  //       setError(error);
+  //     });
+  // }, []);
   return (
     <main id="portfolio" className="w-full flex flex-col gap-6 sm:gap-12 p-12">
       <h2 className="text-3xl font-bold text-secondary dark:text-primary">
